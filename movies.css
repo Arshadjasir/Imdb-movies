@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.765);
+   
+} 
+
+
+.navbar{
+    background-color:rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky ;
+    top: 0px;
+}
+h1{
+    background-color: yellow;
+    width: 100px;
+    border-radius: 4px;
+    padding-left: 8px;
+}
+input{
+    min-width: 35%;
+    min-height: 30px;
+    position: relative;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+i{
+    background-color: white;
+    position: absolute;
+    position:fixed;
+    left: 57%;
+    top: 32px;
+    border: none;
+}
+.row1{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   row-gap: 30px;
+}
+.navtool{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Language{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+img{
+    border-radius: 8px;
+}
+img:hover{
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.05);
+
+}
+.navtool:hover{
+    color: blue;
+}
+.movies{
+    margin-top: 50px;
+}
+
+.heading1{
+    /* background-color: yellowgreen; */
+    display: flex;
+}
+h2{
+ background-color:yellowgreen;
+ padding: 10px;
+ border-radius: 20px;
+ margin-top: 50px;
+ animation-name: fayas;
+ animation-iteration-count: infinite;
+ animation-duration:10s;
+}
+ h2:hover{
+    background-color: blue;
+    color: white;
+ }
+
+
+@keyframes fayas{
+    0%{
+        transform:translateX(0%);
+    }
+    50%{
+        transform:translateX(500%);
+    }
+    100%{
+        transform:translateX(0%);
+    }
+}
